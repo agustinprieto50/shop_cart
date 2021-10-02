@@ -2,6 +2,7 @@ from django.db import models
 from django.db.models.base import Model
 from django.db.models.fields import FloatField
 
+# holis 
 # Create your models here.
 class Users(models.Model):
     _id = models.IntegerField(max_length=6, default="", primary_key=True)
