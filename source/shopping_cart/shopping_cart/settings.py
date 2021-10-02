@@ -77,13 +77,10 @@ WSGI_APPLICATION = 'shopping_cart.wsgi.application'
 DATABASES = {
     
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': 'localhost',
-        'PORT': 5555,
-        'NAME': 'postgres'
-    }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
 
-}
+} }
 
 
 # Password validation
